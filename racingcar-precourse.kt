@@ -1,3 +1,7 @@
+  // fun main() {
+  //   println("Hello World")
+  // }
+
 class Application {
     companion object {
       @JvmStatic
