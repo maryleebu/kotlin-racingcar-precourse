@@ -5,11 +5,11 @@ A simple text-based car racing game built with Kotlin 1.9.24, with the aim of se
 
 ## Features
 
-User-defined car names (comma-separated, max 5 characters each)
-User-defined number of race rounds
-Random movement (cars move forward if random number ≥ 4)
-Visual race progress per round
-Supports multiple winners in case of a tie
-Input validation with meaningful error handling (no external termination calls)
-Fully implemented in Kotlin 1.9.24 following Kotlin coding conventions
-Unit tested with Visual Studio Code
+- User-defined car names (comma-separated, max 5 characters each)
+- User-defined number of race rounds
+- Random movement (cars move forward if random number ≥ 4)
+- Visual race progress per round
+- Supports multiple winners in case of a tie
+- Input validation with meaningful error handling (no external termination calls)
+- Fully implemented in Kotlin 1.9.24 following Kotlin coding conventions
+- Unit tested with Visual Studio Code
