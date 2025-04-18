@@ -1,11 +1,15 @@
-# kotlin-racingcar-precourse
-### key features 
-- The user should be able to specify car names and the number of rounds.
-- Car names should be comma-separated when entered by the user.
-- Each car must have a name, and names cannot exceed 5 characters.
-- Each of the n cars can either move forward or stay still during a given number of rounds.
-- A car moves forward if a randomly generated number between 0 and 9 is 4 or greater.
-- When printing the progress of each car, display the car's name alongside its movement.
-- After the race is complete, display the winners. There can be multiple winners if they reach the same final position.
-- If there are multiple winners, their names should be displayed and separated by commas.
-- If the user inputs invalid data, the program should throw an IllegalArgumentException and terminate.
+# Woowa Precourse - Car racing game built in Kotlin
+## Description
+
+A simple text-based car racing game built with Kotlin 1.9.24, with the aim of self-teaching kotlin. Users can input car names and the number of rounds. Each car progresses based on random chance. The program simulates the race round-by-round and announces the winner(s) at the end.
+
+## Features
+
+User-defined car names (comma-separated, max 5 characters each)
+User-defined number of race rounds
+Random movement (cars move forward if random number ≥ 4)
+Visual race progress per round
+Supports multiple winners in case of a tie
+Input validation with meaningful error handling (no external termination calls)
+Fully implemented in Kotlin 1.9.24 following Kotlin coding conventions
+Unit tested with Visual Studio Code
