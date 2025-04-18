@@ -7,7 +7,7 @@ A simple text-based car racing game built with Kotlin 1.9.24, with the aim of se
 
 - User-defined car names (comma-separated, max 5 characters each)
 - User-defined number of race rounds
-- Random movement (cars move forward if random number ≥ 4)
+- Random movement (cars move forward if random number between 0 and 9 ≥ 4, otherwise stay still)
 - Visual race progress per round
 - Supports multiple winners in case of a tie
 - Input validation with meaningful error handling (no external termination calls)
